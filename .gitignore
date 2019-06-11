@@ -1,0 +1,6 @@
+#.gitignore
+#.idea/
+#js/tests/
+#ts/tests/
+#ts/tslint.json
+#node_modules/

@@ -1,0 +1,21 @@
+{
+  "name": "project-name",
+  "version": "0.1.0",
+  "description": "Project description here.",
+  "main": "js/main",
+  "types": ".d.ts/main",
+  "scripts": {
+    "build": "rm -rf .d.ts/ js/ && tsc -p ts/tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T99/repo-name.git"
+  },
+  "keywords": [],
+  "author": "Trevor Sears <trevorsears.main@gmail.com> (http://trevorsears.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/T99/repo-name/issues"
+  },
+  "homepage": "https://github.com/T99/repo-name#readme"
+}
