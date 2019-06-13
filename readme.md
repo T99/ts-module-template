@@ -11,3 +11,8 @@ $ npm install --save repo-name
 
 ## Basic Usage
 Basic usage instructions here.
+
+## License
+repo-name is made available under the GNU General Public License v3.
+
+Copyright (C) 2019 Trevor Sears
