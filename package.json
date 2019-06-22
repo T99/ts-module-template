@@ -20,6 +20,7 @@
 	},
 	"homepage": "https://github.com/T99/repo-name#readme",
 	"devDependencies": {
+		"typescript": "latest",
 		"@types/jest": "latest",
 		"del": "latest",
 		"gulp": "latest",
