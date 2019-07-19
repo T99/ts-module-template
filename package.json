@@ -13,8 +13,8 @@
 		"readme.md"
 	],
 	"scripts": {
-		"build": "gulp && jest",
-		"test": "jest"
+		"build": "gulp rebuild",
+		"test": "gulp rebuild && jest"
 	},
 	"repository": {
 		"type": "git",
