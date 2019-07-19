@@ -30,6 +30,13 @@
 		fullPackageName=$(echo -n "@${npmOrg}/${packageName}")
 
 	fi
+	
+# If there was no readme title provided, use the package name.
+	if [[ -z $readmeTitle ]]; then
+		
+		readmeTitle="${packageName}"
+		
+	fi
 
 # Modify template files to use correct package information.
 	echo -n "  Modifying template files to use correct package information... "
