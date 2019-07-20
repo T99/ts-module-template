@@ -4,14 +4,6 @@
 	"description": "<desc>",
 	"main": "js/main",
 	"types": ".d.ts/main",
-	"files": [
-		".d.ts/**",
-		"js/**",
-		"ts/**",
-		"license.md",
-		"package.json",
-		"readme.md"
-	],
 	"scripts": {
 		"build": "gulp rebuild",
 		"test": "gulp rebuild && jest"
