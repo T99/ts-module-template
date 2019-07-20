@@ -38,6 +38,12 @@
 
 	fi
 
+# Delete the template repository's readme file and move the templatized one to the proper location.
+	 echo -n "  Deleting placeholder readme and moving templatized readme into place... "
+	 rm readme.md
+	 mv readme.md.template readme.md
+	 echo "DONE"
+
 # Modify template files to use correct package information.
 	echo -n "  Modifying template files to use correct package information... "
 

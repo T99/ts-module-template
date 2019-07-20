@@ -1,18 +1,18 @@
-# <title>
-<desc>
+# JavaScript Module Template
+This repository serves as an easy-start template for JavaScript/TypeScript NPM packages. 
 
-### [Find <name> on NPM.](https://www.npmjs.com/package/<name>)
+Simply clone the repository into a directory:
 
-## Installation
-Install from NPM with
-```
-$ npm install --save <name>
+```bash
+$ git clone git@github.com:T99/js-module-template.git my-new-project
 ```
 
-## Basic Usage
-Basic usage instructions here.
+And then run the init script:
 
-## License
-<name> is made available under the GNU General Public License v3.
+```bash
+$ ./init.sh
+```
 
-Copyright (C) 2019 Trevor Sears
+The init script will interactively prompt you for package information and then automatically build the package, correct and fill-in package information, and install the specified NPM packages already included in the provided `package.json`.
+
+And that's it! Your project is ready to go.
