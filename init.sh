@@ -30,12 +30,12 @@
 		fullPackageName=$(echo -n "@${npmOrg}/${packageName}")
 
 	fi
-	
+
 # If there was no readme title provided, use the package name.
 	if [[ -z $readmeTitle ]]; then
-		
+
 		readmeTitle="${packageName}"
-		
+
 	fi
 
 # Modify template files to use correct package information.
@@ -53,11 +53,6 @@
 
 	done
 
-	echo "DONE"
-
-# Stop tracking certain files that were pulled from the template.
-	echo -n "  Stopping Git from tracking certain files from the template... "
-	git rm --cached ./ts/tslint.json ./.gitignore > /dev/null 2>&1
 	echo "DONE"
 
 # Delete the readmes that were used to track otherwise-empty dirs.
