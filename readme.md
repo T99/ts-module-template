@@ -10,7 +10,7 @@ $ git clone git@github.com:T99/js-module-template.git my-new-project
 And then run the init script:
 
 ```bash
-$ ./init.sh
+$ ./init.py
 ```
 
 The init script will interactively prompt you for package information and then automatically build the package, correct and fill-in package information, and install the specified NPM packages already included in the provided `package.json`.
