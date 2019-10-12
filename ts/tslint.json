@@ -120,6 +120,8 @@
 		
 		"typeof-compare": true,
 		
+		"unified-signatures": false,
+		
 		"use-isnan": true,
 		
 		"whitespace": [true,
