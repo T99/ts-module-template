@@ -167,3 +167,4 @@ if __name__ == "__main__":
 
 	if config["self-destruct"]:
 		os.remove(__file__)
+		os.remove(CONFIG_FILE_PATH)
