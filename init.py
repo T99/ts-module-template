@@ -162,9 +162,9 @@ if __name__ == "__main__":
 	print(STRING_INDENT + "Installing packages from package.json...\n")
 	os.system("npm install > /dev/null 2>&1")
 
-	# If the initialization file is configured to delete itself on-completion, comply.
 	print(STRING_INDENT + "Done! Exiting...\n")
 
+	# If the initialization file is configured to delete itself on-completion, comply.
 	if config["self-destruct"]:
 		os.remove(__file__)
 		os.remove(CONFIG_FILE_PATH)
