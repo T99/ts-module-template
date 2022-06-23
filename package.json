@@ -20,15 +20,21 @@
 	},
 	"homepage": "https://github.com/<github_org>/<base_name>#readme",
 	"devDependencies": {
-		"typescript": "latest",
-		"tslint": "latest",
 		"@types/jest": "latest",
+		"@typescript-eslint/eslint-plugin": "^5.29.0",
+		"@typescript-eslint/parser": "^5.29.0",
 		"del": "latest",
+		"eslint": "^8.18.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-jsdoc": "^39.3.3",
+		"eslint-plugin-prefer-arrow": "^1.2.3",
 		"gulp": "latest",
 		"gulp-sourcemaps": "latest",
 		"gulp-typescript": "latest",
 		"gulp-uglify-es": "latest",
 		"jest": "latest",
-		"ts-jest": "latest"
+		"ts-jest": "latest",
+		"tslint": "latest",
+		"typescript": "latest"
 	}
 }
