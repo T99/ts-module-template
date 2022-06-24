@@ -10,7 +10,7 @@ ts/tests
 ts
 
 # Ignore Git/GitHub files.
-.github
+.github/
 .gitattributes
 .gitignore
 
