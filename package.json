@@ -20,8 +20,7 @@
 	},
 	"homepage": "https://github.com/<github_org>/<base_name>#readme",
 	"devDependencies": {
-		"typescript": "latest",
-		"tslint": "latest",
+		"@t99/eslint-config": "latest",
 		"@types/jest": "latest",
 		"del": "latest",
 		"gulp": "latest",
@@ -29,6 +28,7 @@
 		"gulp-typescript": "latest",
 		"gulp-uglify-es": "latest",
 		"jest": "latest",
-		"ts-jest": "latest"
+		"ts-jest": "latest",
+		"typescript": "latest"
 	}
 }
