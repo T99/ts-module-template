@@ -6,7 +6,8 @@
 	"types": ".d.ts/main",
 	"scripts": {
 		"build": "gulp rebuild",
-		"test": "gulp rebuild && jest"
+		"test": "gulp rebuild && jest",
+		"prepack": "npm run build"
 	},
 	"repository": {
 		"type": "git",
