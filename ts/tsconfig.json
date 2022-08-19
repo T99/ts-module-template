@@ -45,7 +45,7 @@
 		"noFallthroughCasesInSwitch": true,
 		
 		// Removes comments from compiled .js files.
-		"removeComments": true,
+		"removeComments": false,
 		
 		// Prevents implied 'any' type (undeclared expression types).
 		"noImplicitAny": true,
