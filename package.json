@@ -12,6 +12,8 @@
 	"engines": {
 		"node": ">=14.16"
 	},
+	"main": "js/main",
+	"types": ".d.ts/main",
 	"scripts": {
 		"build": "gulp rebuild",
 		"test": "gulp rebuild && jest",
