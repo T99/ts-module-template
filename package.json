@@ -9,7 +9,9 @@
 	"typesVersions": {
 		".": ["./.d.ts/main.d.ts"]
 	},
-	"types": ".d.ts/main",
+	"engines": {
+		"node": ">=14.16"
+	},
 	"scripts": {
 		"build": "gulp rebuild",
 		"test": "gulp rebuild && jest",
