@@ -2,7 +2,13 @@
 	"name": "<name>",
 	"version": "<version>",
 	"description": "<desc>",
-	"main": "js/main",
+	"type": "module",
+	"exports": {
+		".": "./js/main.js"
+	},
+	"typesVersions": {
+		".": ["./.d.ts/main.d.ts"]
+	},
 	"types": ".d.ts/main",
 	"scripts": {
 		"build": "gulp rebuild",

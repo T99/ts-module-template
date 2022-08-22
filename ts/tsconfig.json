@@ -3,7 +3,7 @@
 	"compilerOptions": {
 		
 		// Specify module code generation for CommonJS.
-		"module": "commonjs",
+		"module": "ES2020",
 		
 		// Uses Node-style module resolution.
 		"moduleResolution": "node",
@@ -59,8 +59,14 @@
 		
 		// More strictly checks function argument types to ensure that the values passed into any given function
 		// actually fulfill the requirements of the designated parameter types.
-		"strictFunctionTypes": true
-	
+		"strictFunctionTypes": true,
+		
+		// Alow JSX-style tags within code.
+		"jsx": "preserve",
+		
+		// Allow React's form of default imports.
+		"allowSyntheticDefaultImports": true
+		
 	},
 	
 	"exclude": [
