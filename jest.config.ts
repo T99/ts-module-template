@@ -16,19 +16,26 @@ const jestConfig: JestConfigWithTsJest = {
 	
 	// A list of paths to directories that Jest should use to search for files in
 	roots: [
-		"<rootDir>/ts/tests"
+		
+		"<rootDir>/ts/tests",
+		
 	],
 	
 	// The test environment that will be used for testing
 	testEnvironment: "node",
 	
-	transform: {
-
-		"^.+\\.m?[tj]sx?$": [
-			"ts-jest",
-			{ useESM: true },
-		],
+	extensionsToTreatAsEsm: [".ts"],
 	
+	moduleNameMapper: {
+		'^(\\.{1,2}/.*)\\.js$': '$1',
+	},
+	
+	transform: {
+		
+		"^.+\\.m?[tj]sx?$": ["ts-jest", {
+			useESM: true,
+		}],
+		
 	},
 	
 };
