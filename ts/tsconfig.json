@@ -61,7 +61,7 @@
 		// actually fulfill the requirements of the designated parameter types.
 		"strictFunctionTypes": true,
 		
-		// Alow JSX-style tags within code.
+		// Allow JSX-style tags within code.
 		"jsx": "preserve",
 		
 		// Allow React's form of default imports.
