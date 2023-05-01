@@ -20,8 +20,14 @@
 	"types": ".d.ts/main",
 	"scripts": {
 		"build": "gulp rebuild",
-		"test": "gulp rebuild && jest",
-		"prepack": "npm run build"
+		"lint": "eslint \"./**/*.@(j|t)s?(x)\"",
+		"pretest": "npm run build",
+		"test": "jest",
+		"isClean": "run-script-os",
+		"isClean:windows": "(git diff --quiet) -and (git diff --cached --quiet)",
+		"isClean:nix": "git diff --quiet && git diff --cached --quiet",
+		"prepack": "npm-run-all --sequential --continue-on-error build test lint",
+		"prepublishOnly": "npm run isClean"
 	},
 	"repository": {
 		"type": "git",
@@ -44,6 +50,8 @@
 		"gulp-terser": "latest",
 		"gulp-typescript": "latest",
 		"jest": "latest",
+		"npm-run-all": "latest",
+		"run-script-os": "latest",
 		"ts-jest": "latest",
 		"ts-node": "latest",
 		"typescript": "latest"
