@@ -8,7 +8,9 @@
 	},
 	"typesVersions": {
 		"*": {
-			">=4.0": ["./.d.ts/main.d.ts"]
+			">=4.0": [
+				"./.d.ts/main.d.ts"
+			]
 		}
 	},
 	"engines": {
@@ -39,11 +41,11 @@
 		"del": "latest",
 		"gulp": "latest",
 		"gulp-sourcemaps": "latest",
-		"gulp-typescript": "latest",
 		"gulp-terser": "latest",
+		"gulp-typescript": "latest",
 		"jest": "latest",
 		"ts-jest": "latest",
-		"typescript": "latest",
-		"ts-node": "latest"
+		"ts-node": "latest",
+		"typescript": "latest"
 	}
 }
